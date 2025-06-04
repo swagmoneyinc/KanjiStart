@@ -1,4 +1,4 @@
-#I do not understand React or how to use it correctly, I am still working on this. 
+#I do not understand React or how to use it correctly
 
 My first React work so it's definitely not good. I'll settle for working in some capacity. 
 
