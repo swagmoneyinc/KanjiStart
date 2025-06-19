@@ -115,9 +115,11 @@ export default function App(){
     }
     
     // gets a random grade by retrieving the true bools from our settingsData right now. then picks one randomly and returns it.
-    function getRandomGrade(){
-        const selectedGrades = Object.keys(settingsData).filter(filterObj)
-        return Math.floor((Math.random() * selectedGrades.length) + 1)
+    function getRandomGrade() {
+        const selectedGrades = Object.keys(settingsData)
+            .filter(filterObj)
+            .map(key => parseInt(key.replace("grade", "")));
+        return selectedGrades[Math.floor(Math.random() * selectedGrades.length)];
     }
 
 
