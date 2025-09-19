@@ -24,7 +24,7 @@ export default function SidebarLinks(props){
                 <button className="icon" id="settingsButton" onClick={props.colorOnClick}>
                     <img src={paletteIcon} alt="Color Button" style={{filter: iconLight ? "invert(1)"  : "none"}} ></img>
                 </button>
-                <a className="icon" href="https://github.com/ijustwebdev">
+                <a className="icon" href="https://github.com/swagmoneyinc">
                     <img src={reactIcon} alt="Github Link" style={{filter: iconLight ? "invert(1)"  : "none"}} ></img>
                 </a>
         </div>

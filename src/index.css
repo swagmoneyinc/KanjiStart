@@ -236,7 +236,7 @@ fieldset{
 
 /* : Color Settings Modal */
 #colorModal{
-  margin-top: 15%;
+  margin-top: 2%;
   margin-left: 30%;
   position: fixed;
   color: white;
@@ -246,13 +246,13 @@ fieldset{
   width: 40vw;
 }
 #colorModal > form{
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: #3b3b3b;
   border-radius: .5vw;
   padding: 2vh 1vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 #colorButton{
   font-size: 1vw;
@@ -295,5 +295,9 @@ fieldset{
   }
   #sidebar{
     justify-content: space-evenly;
+  }
+  #colorModal{
+    margin-top: 5%;
+    margin-left: 0%;
   }
 }
